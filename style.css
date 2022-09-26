@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: courier new, sans-serif;
+    font-size:25px;
+        color: black
+}
+
+header {
+    display: flex;
+    position:auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: black
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 160vh;
+    border: 3px solid rgb(248, 246, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+   
+    
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+   
+    
+
+
+}
+#hero .profile-img {
+    width: 350px;
+    border-radius: 30%;
+
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1 {
+    font-size: 50px;
+    color: whitesmoke;
+   
+}
+
+
+   
+
+
+section h2 {
+    
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+
+section h3
+{
+    font-size: 50px;
+    color: whitesmoke;
+    border: 5px solid white;
+    padding: 10px;
+    border-top-left-radius: 25px;
+}
+section h4
+{
+    font-size: 50px;
+    color: white;
+    
+}
+
+section h5
+{
+    font-size: 50px;
+    color: white;
+    border: 5px solid white;
+    padding: 10px;
+    border-top-left-radius: 25px;
+}
+header a {
+    text-decoration: none;
+    color: rgb(241, 214, 5);
+}
+
+
+
+#hero {
+    background-image:  url('14784.gif');
+}
+
+#about {
+    background-image:  url('14784.gif');
+}
+#hobbies {
+    background-image:  url('14784.gif');
+   
+}
+#contact {
+    background-image:  url('14784.gif');
+}
+
